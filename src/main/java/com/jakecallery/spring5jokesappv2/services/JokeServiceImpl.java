@@ -8,6 +8,7 @@ public class JokeServiceImpl implements JokeService {
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
     public JokeServiceImpl() {
+        //TODO: Wire this with dependency injection
         this.chuckNorrisQuotes = new ChuckNorrisQuotes();
     }
 
